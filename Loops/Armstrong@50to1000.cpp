@@ -3,11 +3,11 @@
 using namespace std;
 
 int main() {
-    int lower_limit = 50, upper_limit = 1000;
+    int lower_lim = 50, upper_lim = 1000;
 
-    cout << "Armstrong numbers between " << lower_limit << " and " << upper_limit << " are:\n";
+    cout << "Armstrong numbers between " << lower_lim << " and " << upper_lim << " are:\n";
 
-    for (int n = lower_limit; n <= upper_limit; n++) {
+    for (int n = lower_lim; n <= upper_lim; n++) {
         int sum = 0;
         int original_n = n;
         int temp = n;
