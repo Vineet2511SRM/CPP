@@ -9,6 +9,7 @@ int main() {
     typedWords.push("Hello");
     typedWords.push("World");
     typedWords.push("Test");
+    typedWords("Cricket");
 
     // Displaying the words typed
     cout << "Words typed:\n";
