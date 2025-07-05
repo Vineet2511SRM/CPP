@@ -14,8 +14,8 @@ class calc1
 
 int main()
 {
-    calc1 obj;
-    obj.oper();
+    calc1 object;
+    object.oper();
     return 0;
 
 }
