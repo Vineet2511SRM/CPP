@@ -3,16 +3,16 @@
 using namespace std;
 
 int main(){
-    int n;
+    int num;
     cout<<"Enter no of rows: ";
-    cin>>n;
-    for(int line = 1;line<=n;line++){
+    cin>>num;
+    for(int line = 1;line<=num;line++){
         //printing spaces for current line
-        for(int i = 1;i<=n;i++){
-            if(i==(n/2+1)){
+        for(int i = 1;i<=num;i++){
+            if(i==(num/2+1)){
                 cout<<"+";
             }
-            else if(line == (n/2+1)){
+            else if(line == (num/2+1)){
                 cout<<"+";
             }
             else{
